@@ -1063,12 +1063,7 @@ background: rgba(0, 0, 0, 0.2);
 .project__list:focus .project__list:active {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
 
-/* .list-text {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 24px;
-    padding-left: 24px;
-} */
+
 .project__images {
     width: 370px;
     height: 294px;
@@ -1136,6 +1131,8 @@ background: rgba(0, 0, 0, 0.2);
     transform: translateY(0%);
 }
 .desciption-under {
+    width: 370px;
+
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;

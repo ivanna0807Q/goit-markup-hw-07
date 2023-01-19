@@ -1,0 +1,50 @@
+.strenght {
+    padding-bottom: 0%;
+}
+
+.strength-list {
+    display: flex;
+}
+
+.strength-list__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.strength-list__item:last-child {
+    margin-right: 0;
+}
+
+.strength-list__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.strength-list__name {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+
+.strenght .strenght__name {
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.strength-list__text {
+    width: 270px;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+}
+
+.strength-list__text,
+.team-members__text {
+    color: var(--primary-text-color);
+}
