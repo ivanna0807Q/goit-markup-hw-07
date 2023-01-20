@@ -29,14 +29,14 @@
      height: 294px;
     }
     &__title {
-    color:$primary-title-color;
+    color: #212121;
     font-size: 18px;
     line-height: calc(36 / 18);
     letter-spacing: 0.06em;
     margin-bottom: 4px;
    }
     &__text {
-    color:$primary-text-color;
+    color: #757575;
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
@@ -70,7 +70,7 @@
     padding: 63px 24px;
     font-size: 18px;
     line-height: calc(28 / 18);
-    color: $main-white-color-h;
+    color:#FFFFFF;
 }
 .project__link:hover .overlay {
     transform: translateY(0%);
