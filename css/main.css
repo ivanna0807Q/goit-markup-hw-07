@@ -472,7 +472,6 @@ a {
   background-color: #2196F3;
 }
 
-/* Customer section */
 .customer__title {
   margin-bottom: 50px;
 }
@@ -486,17 +485,14 @@ a {
           justify-content: center;
   gap: 30px;
 }
-.customers-list__title {
-  font-size: 36px;
-  line-height: 1.1666666667;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
 
-.customers-list__link {
+.customer-list__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.customer-list__link {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   width: 170px;
@@ -512,7 +508,9 @@ a {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers-list__link:hover, .customers-list__link:focus {
+
+.customer-list__link:hover,
+.customer-list__link:focus {
   fill: #2196F3;
   border-color: #2196F3;
 }

@@ -1,4 +1,3 @@
-/* Customer section */
 .customer__title {
     margin-bottom: 50px;
 }
@@ -7,17 +6,13 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-
-
-    &__title {
-     font-size: 36px;
-     line-height: calc(42 / 36);
-     text-align: center;
-     letter-spacing: 0.03em;
-    }
 }
-.customers-list__link {
+
+.customer-list__link {
     display: flex;
+}
+
+.customer-list__link {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     width: 170px;
@@ -29,13 +24,10 @@
     transition-property: fill, border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-        fill: $link-active-color;
-        border-color: $link-active-color;
-    }
 }
 
-
-
+.customer-list__link:hover,
+.customer-list__link:focus {
+    fill: $link-active-color;
+    border-color: $link-active-color;
+}
