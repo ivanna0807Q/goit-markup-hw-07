@@ -261,4 +261,66 @@ a {
   background: #188CE8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/*strenght section styles*/
+.strenght {
+  padding-bottom: 0%;
+}
+
+.strength-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.strength-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+.strength-list__item:last-child {
+  margin-right: 0;
+}
+.strength-list__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.strength-list__name {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+.strenght .strength-list__name {
+  font-size: 14px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.strength-list__text {
+  width: 270px;
+  font-size: 14px;
+  line-height: 1.7142857143;
+}
+.strength-list__text,
+ .team-members__text {
+  color: #757575;
+}
+
+/*h3 and text styles */
+.strength__name,
+.team-members__name,
+.work__title,
+.team__title,
+.customer__title {
+  color: #212121;
 }/*# sourceMappingURL=main.css.map */
