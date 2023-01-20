@@ -4,6 +4,8 @@
     background-color: var(--footer-background-color);
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #188CE8;
+    font-size: large;
 
 }
 
@@ -12,27 +14,27 @@
     align-items: baseline;
 }
 
-&__logo-blue {
+.footer-logo-blue {
     color: var(--logo-text-blue)
 }
 
-&__logo-white {
+.footer-logo-white {
     color: #FFFFFF;
 }
 
-&__logo-blue,
-&__logo-white {
+.footer-logo-blue,
+.footer-logo-white {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
 }
 
-&__contacts {
+.footer-contacts {
     margin-top: 28px;
 }
 
-&__contacts__address {
+.footer-contacts__address {
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
@@ -43,18 +45,14 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 12px;
     margin-right: 70px;
-
-    &:hover{
-        color: #2196F3;
-}
-    &:focus {
-        color: #2196F3; }
 }
 
+.footer-contacts__address:hover,
+.footer-contacts__address:focus {
+    color: #2196F3;
+}
 
-
-
-&__contacts-link {
+.footer-contacts__link {
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
@@ -64,19 +62,20 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-     
-     &:hover {
-        color: #2196F3;  }
-     &:focus {
-        color: #2196F3; }
-
-     &:not(:last-child) {
-        margin-bottom: 12px;}
-        
-     &:last-child {
-        margin-bottom: 0;}
 }
 
+.footer-contacts__link:hover,
+.footer-contacts__link:focus {
+    color: #2196F3;
+}
+
+.footer-contacts__link:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.footer-contacts__link:last-child {
+    margin-bottom: 0;
+}
 
 
 /* Following */
@@ -86,7 +85,7 @@
     flex-direction: column;
 }
 
-&__title {
+.following-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -95,6 +94,9 @@
     color: var(--hero-title-color);
     margin-bottom: 20px;
 }
+
+
+
 
 /* Subscription  container */
 
